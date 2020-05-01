@@ -12,19 +12,9 @@ This is developed as one of Algoritma Academy Data Analytics Specialization usin
 
 There are few prerequisites needed for this project. Usually, we can use `pip install`/`conda install` to install requirements on our environment. But for now, let's try on another approach on preparing libraries needed for a certain project.
 
-If you browse on `/assets` directory on this repository, you'll find a file called `requirements.txt`. This file is used for specifying what python packages are required to run a certain project. If you open up the file, you will see something that looks similar to this:
+If you browse on `/assets` directory on this repository, you'll find a file called `requirements.txt`. This file is used for specifying what python packages are required to run a certain project. If you open up the file, notice that we have a line for each package, then a version number. This is important because as you start developing your python applications, you will develop the application with specific versions of the packages in mind.
 
-backcall==0.1.0  
-certifi==2019.11.28  
-chardet==3.0.4  
-cycler==0.10.0  
-decorator==4.4.0  
-idna==2.9  
-ipython==7.7.0  
-......
-
-
-Notice we have a line for each package, then a version number. This is important because as you start developing your python applications, you will develop the application with specific versions of the packages in mind. In simple, `requirements.txt` helps to keep track of what version of each package you are using to prevent unexpected changes.
+In simple, `requirements.txt` helps to keep track of what version of each package you are using to prevent unexpected changes.
 
 Run the following command to create a new conda environment from requirements.txt:
 
