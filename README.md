@@ -68,24 +68,18 @@ The data set includes information about:
 
 ### Data Glossary
 
-- `customerID`: Customer ID
-- `gender`: Whether the customer is a male or a female
-- `SeniorCitizen`: Whether the customer is a senior citizen or not (1, 0)
-- `Partner`: Whether the customer has a partner or not (Yes, No)
-- `Dependents`: Whether the customer has dependents or not (Yes, No)
-- `tenure`: Number of months the customer has stayed with the company
-- `PhoneService`: Whether the customer has a phone service or not (Yes, No)
-- `MultipleLines`: Whether the customer has multiple lines or not (Yes, No, No phone service)
-- `InternetService`: Customer’s internet service provider (DSL, Fiber optic, No)
-- `OnlineSecurity`: Whether the customer has online security or not (Yes, No, No internet service)
-- `OnlineBackup`: Whether the customer has online backup or not (Yes, No, No internet service)
-- `DeviceProtection`: Whether the customer has device protection or not (Yes, No, No internet service)
-- `TechSupport`: Whether the customer has tech support or not (Yes, No, No internet service)
-- `StreamingTV`: Whether the customer has streaming TV or not (Yes, No, No internet service)
-- `StreamingMovies`: Whether the customer has streaming movies or not (Yes, No, No internet service)
-- `Contract`: The contract term of the customer (Month-to-month, One year, Two year)
-- `PaperlessBilling`: Whether the customer has paperless billing or not (Yes, No)
-- `PaymentMethod`: The customer’s payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))
-- `MonthlyCharges`: The amount charged to the customer monthly
-- `TotalCharges`: The total amount charged to the customer
-- `Churn`: Whether the customer churned or not (Yes or No)
+- `customer_id`: A unique ID that identifies each customer.  
+-`=city`: The city of the customer’s primary residence.  
+- `gender`: The customer’s gender: `Male`, `Female`  
+- `senior_citizen`: Indicates if the customer is 65 or older: `Yes`, `No`  
+- `dependents`: Indicates if the customer lives with any dependents: `Yes`, `No`. Dependents could be children, parents, grandparents, etc.  
+- `tenure_months`: Indicates the total amount of months that the customer has been with the company by the end of the quarter specified above.  
+- `phone_service`: Indicates if the customer subscribes to home phone service with the company: `Yes`, `No`  
+- `multiple_lines`: Indicates if the customer subscribes to multiple telephone lines with the company: `Yes`, `No`  
+- `internet_service`: Indicates if the customer subscribes to Internet service with the company: `No`, `DSL`, `Fiber Optic`, `Cable`.  
+- `contract`: Indicates the customer’s current contract type: `Month-to-Month`, `One Year`, `Two Year`.  
+- `monthly_charges`: Indicates the customer’s current total monthly charge for all their services from the company.  
+- `total_charges`:  Indicates the customer’s total charges, calculated to the end of the quarter specified above.  
+- `churn_label`: Yes = the customer left the company this quarter. No = the customer remained with the company. Directly related to Churn Value.  
+- `cltv`:  A calculation that assigns a CLTV value to one of the following categories: 2000-2500, 2501-3000, 3001-3500, 3501-4000, 4001-4500, 4501-5000, 5001-5500, 5501-6000, 6001-6500, and 6501-7000.
+
