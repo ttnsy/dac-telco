@@ -1,4 +1,4 @@
-# Data Analysis Capstone: Telco Churn Dashboard
+# Data Analysis Capstone:<br> Telco Churn Dashboard
 
 This is developed as one of Algoritma Academy Data Analytics Specialization using capstone Projects. The deliverables of this project is a simple analytic dashboard using Flask framework.
 
