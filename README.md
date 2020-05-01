@@ -57,19 +57,19 @@ python -m ipykernel install --user --name=<ENV_NAME>
 
 ## Dataset
 
-The data set is taken from IBM sample data sets for telco customer retention programs in [Kaggle](https://www.kaggle.com/blastchar/telco-customer-churn). Each row represents a customer, each column contains customer’s attributes described on the column Metadata.
+The data set is taken from [IBM sample data sets](https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113) for telco customer retention programs. Each row represents a customer, each column contains customer’s attributes described on the column Metadata.
 
 The data set includes information about:
 
-- **Customers who left within the last month** – the column is called Churn
-- **Services that each customer has signed up for** – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies.
-- **Customer account information** – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
-- **Demographic info about customers** – gender, age range, and if they have partners and dependents
+- **Customers who left within the last month** – the column is called `churn_label`
+- **Services that each customer has signed up for** – phone, multiple lines, internet.
+- **Customer account information** – contract, monthly charges, and total charges
+- **Demographic info about customers** – gender, city, age range, and if they have partners and dependents
 
 ### Data Glossary
 
 - `customer_id`: A unique ID that identifies each customer.  
--`=city`: The city of the customer’s primary residence.  
+- `city`: The city of the customer’s primary residence.  
 - `gender`: The customer’s gender: `Male`, `Female`  
 - `senior_citizen`: Indicates if the customer is 65 or older: `Yes`, `No`  
 - `dependents`: Indicates if the customer lives with any dependents: `Yes`, `No`. Dependents could be children, parents, grandparents, etc.  
