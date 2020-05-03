@@ -1,20 +1,20 @@
-# Data Analysis Capstone:<br> Telco Customer Retention Analysis Dashboard
+# Data Analysis Capstone:<br> Telco Customer Churn Analysis Dashboard
 
-This is developed as one of Algoritma Academy Data Analytics Specialization using capstone Projects. The deliverables of this project is a simple analytic dashboard using Flask framework.
+![](assets/dachurn.png)
 
-## Rubrics
+This is developed as one of Algoritma Academy Data Analytics Specialization using capstone Projects. The deliverables of this project is a [simple analytic dashboard](http://dachurn.herokuapp.com/) using Flask framework.
+
+
+
+## Capstone Rubrics
 
 ...
 
 ---
 
-## Environment Setup
+## Dependencies
 
-There are few prerequisites needed for this project. Usually, we can use `pip install`/`conda install` to install requirements on our environment. But for now, let's try on another approach on preparing libraries needed for a certain project.
-
-If you browse on `/assets` directory on this repository, you'll find a file called `requirements.txt`. This file is used for specifying what python packages are required to run a certain project. If you open up the file, notice that we have a line for each package, then a version number. This is important because as you start developing your python applications, you will develop the application with specific versions of the packages in mind.
-
-In simple, `requirements.txt` helps to keep track of what version of each package you are using to prevent unexpected changes.
+If you browse on `/assets` directory on this repository, you'll find a file called `requirements.txt`. This file contained the dependencies for this project.
 
 Run the following command to create a new conda environment from requirements.txt:
 
