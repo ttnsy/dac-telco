@@ -4,9 +4,9 @@
 
 This project is developed as one of [Algoritma Academy](https://algorit.ma/) Data Analytics Specialization using capstone Projects. The deliverables of this project is a simple analytic dashboard using Flask framework.
 
-The skeleton for this application is separated into 2 different files: `app.py` and `helper.py`, in which the first one handles the routing and within `helper` you would define function to be called in `app`.
+The skeleton for this application is separated into 2 different files: [app.py](app.py) and [helper.py](helper.py), in which the first one handles the routing and within [helper](helper.py) you would define function to be called in [app](app.py).
 
-The `Customer_Churn_Analysis.ipynb` notebook contains all the tasks and explanation which will guide you to complete the given skeleton.
+The [Customer_Churn_Analysis](Customer_Churn_Analysis.ipynb) notebook contains all the tasks and explanation which will guide you to complete the given skeleton.
 
 ## Rubrics
 
@@ -21,7 +21,7 @@ To get the full 16 points, you will need to complete the following tasks:
 
 ## Dependencies
 
-If you browse on `/assets` directory on this repository, you'll find a file called `requirements.txt`. This file contained the dependencies for this project.
+If you browse on `/assets` directory on this repository, you'll find a file called [requirements.txt](assets/requirements.txt). This file contained the dependencies for this project.
 
 Run the following command to create a new conda environment from requirements.txt:
 
