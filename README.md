@@ -1,14 +1,21 @@
 # Data Analysis Capstone:<br> Telco Customer Churn Analysis Dashboard
 
-![](assets/dachurn.png)
+[![](assets/dachurn.png)](http://dachurn.herokuapp.com/)
 
-This is developed as one of Algoritma Academy Data Analytics Specialization using capstone Projects. The deliverables of this project is a [simple analytic dashboard](http://dachurn.herokuapp.com/) using Flask framework.
+This project is developed as one of [Algoritma Academy](https://algorit.ma/) Data Analytics Specialization using capstone Projects. The deliverables of this project is a simple analytic dashboard using Flask framework.
 
+The skeleton for this application is separated into 2 different files: `app.py` and `helper.py`, in which the first one handles the routing and within `helper` you would define function to be called in `app`.
 
+The `Customer_Churn_Analysis.ipynb` notebook contains all the tasks and explanation which will guide you to complete the given skeleton.
 
-## Capstone Rubrics
+## Rubrics
 
-...
+To get the full 16 points, you will need to complete the following tasks:
+- Load and pre-process data (*2pts*)
+- Extract quick summary (*3pts*)
+- Generate the plot (*4pts*)
+- Create your own analysis (*4pts*)
+- Make the flask app run properly (*3pts*)
 
 ---
 
@@ -45,9 +52,12 @@ python -m ipykernel install --user --name=<ENV_NAME>
 ```
 ---
 
-## Dataset
+## Dataset Details
 
-The data set is taken from [IBM sample data sets](https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113) for telco customer retention programs. Each row represents a customer, each column contains customer’s attributes described on the column Metadata.
+The data set is taken from [IBM sample data sets](https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113) for telco customer retention programs. 
+
+> "The Telco customer churn data contains information about a fictional telco company that provided home phone and Internet services to 7043 customers in California in Q3. It indicates which customers have left, stayed, or signed up for their service. Multiple important demographics are included for each customer."
+
 
 The data set includes information about:
 
@@ -72,4 +82,6 @@ The data set includes information about:
 - `total_charges`:  Indicates the customer’s total charges, calculated to the end of the quarter specified above.  
 - `churn_label`: `Yes` = the customer left the company this quarter. `No` = the customer remained with the company.    
 - `cltv`:  A calculation that assigns a CLTV value to one of the following categories: 2000-2500, 2501-3000, 3001-3500, 3501-4000, 4001-4500, 4501-5000, 5001-5500, 5501-6000, 6001-6500, and 6501-7000.
+
+
 
