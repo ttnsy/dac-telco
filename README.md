@@ -19,7 +19,7 @@ To get the full 16 points, you will need to complete the following tasks:
 
 ## Dependencies
 
-If you browse on `/assets` directory on this repository, you'll find a file called [requirements.txt](assets/requirements.txt). This file contained the dependencies for this project.
+If you browse on [assets](assets) directory on this repository, you'll find a file called [requirements.txt](assets/requirements.txt). This file contained the dependencies for this project.
 
 Run the following command to create a new conda environment from requirements.txt:
 
