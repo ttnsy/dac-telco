@@ -17,8 +17,6 @@ To get the full 16 points, you will need to complete the following tasks:
 - Create your own analysis (*4pts*)
 - Make the flask app run properly (*3pts*)
 
----
-
 ## Dependencies
 
 If you browse on `/assets` directory on this repository, you'll find a file called [requirements.txt](assets/requirements.txt). This file contained the dependencies for this project.
@@ -50,7 +48,6 @@ You have now successfuly installed all the requirements needed on this project! 
 pip install ipykernel
 python -m ipykernel install --user --name=<ENV_NAME>
 ```
----
 
 ## Dataset Details
 
