@@ -39,7 +39,7 @@ cd <PATH_TO_REQUIREMENTS>
 **Step 3**: Install the requirements
 
 ```
-pip install -f requirements.txt
+pip install -r requirements.txt
 ```
 
 You have now successfuly installed all the requirements needed on this project! For your convenience, don't forget to link your new environment to jupyter-notebook using kernel:
