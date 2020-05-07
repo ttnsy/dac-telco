@@ -19,11 +19,11 @@ To get the full 16 points, you will need to complete the following tasks:
 
 ## Dependencies
 
-If you browse on [assets](assets) directory on this repository, you'll find a file called [requirements.txt](assets/requirements.txt). This file contained the dependencies for this project.
+If you browse on [assets](assets) directory on this repository, you'll find a file called [requirements.txt](assets/requirements.txt). The file contains dependencies for this project.
 
 Run the following command to create a new conda environment from requirements.txt:
 
-**Step 1**: Prepare a "blank" new environment and activate it
+**Step 1**: Prepare a new "blank" environment then activate it
 
 ```
 conda env create -n <ENV_NAME> python=<PYTHON_VERSION>
@@ -42,7 +42,7 @@ cd <PATH_TO_REQUIREMENTS>
 pip install -r requirements.txt
 ```
 
-You have now successfuly installed all the requirements needed on this project! For your convenience, don't forget to link your new environment to jupyter-notebook using kernel:
+Now you have successfuly installed all the requirements needed on this project! For your convenience, don't forget to link your new environment to jupyter-notebook by installing the kernel:
 
 ```
 pip install ipykernel
@@ -56,7 +56,7 @@ The data set is taken from [IBM sample data sets](https://community.ibm.com/comm
 > "The Telco customer churn data contains information about a fictional telco company that provided home phone and Internet services to 7043 customers in California in Q3. It indicates which customers have left, stayed, or signed up for their service. Multiple important demographics are included for each customer."
 
 
-The data set includes information about:
+The dataset includes information about:
 
 - **Customers who left within the last month** – the column is called `churn_label`
 - **Services that each customer has signed up for** – phone, multiple lines, internet.
