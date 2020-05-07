@@ -21,8 +21,10 @@ def index():
 	# table_churn_res = table_churn(raw)
 	# percent_churn = table_churn_res.loc['_______', '_______'].round(2)
 	# percent_retain = _______
+    
 	# ## average lifetime value
 	# average_cltv = int(_______)
+    
 	# # compile card values as `card_data`
 	# card_data = dict(
 	# 		percent_churn = f'{percent_churn}%',

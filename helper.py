@@ -7,9 +7,11 @@ import base64
 def load_telco():
     # Read data
     telco = pd.read_csv('data/telcochurn.csv')
+    
     # Adjust dtypes
     catcol = telco.select_dtypes('object').columns
     telco[catcol] = telco[catcol].apply(lambda x: x.astype('______'))
+    
     # Tenure Months to grouping categories
     def grouping_tenure(telco) :
         if telco["_______"] <= 12 :
@@ -22,10 +24,13 @@ def load_telco():
             return "4-5 Year"
         else:
             return "> 5 Year"
+        
     telco["tenure_group"] = telco.apply(lambda telco: _______(telco), axis = 1)
+    
     # Adjust category order
     tenure_group = ["< 1 Year", "1-2 Year", "2-4 Year", "4-5 Year", "> 5 Year"]
     telco["tenure_group"] = pd.Categorical(telco["tenure_group"], categories = tenure_group, ordered=True)
+    
     return(telco)
 
 def table_churn(data):
