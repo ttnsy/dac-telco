@@ -20,7 +20,7 @@ def load_telco():
             return "2-4 Year"
         elif (telco["_______"] __ ____) & (telco["_______"] __ ____) :
             return "4-5 Year"
-        elif telco["_______"] __ ____ :
+        else:
             return "> 5 Year"
     telco["tenure_group"] = telco.apply(lambda telco: _______(telco), axis = 1)
     # Adjust category order
